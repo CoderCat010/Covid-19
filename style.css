@@ -182,7 +182,7 @@ body.active { overflow-y: hidden; }
 }
 /* //////////////////////////////////////////////// */
 
-/*  */
+/* ********************************************** */
 @keyframes slideInTop {
   0% { transform: translateY(-100%); }
   100% { transform: translateY(0); }
@@ -282,7 +282,9 @@ body.active { overflow-y: hidden; }
 .hero-list-item.red::before { background-color: var(--red-orange-creyola); }
 
 .hero-banner .w-100 { animation: rotate 20s linear infinite; }
+/* ///////////////////////////////////////////////// */
 
+/* ************************************************* */
 @keyframes rotate {
   0% { transform: rotate(0); }
   100% { transform: rotate(360deg); }
@@ -505,5 +507,6 @@ body.active { overflow-y: hidden; }
   visibility: visible;
   transform: translateY(-10px);
 }
+/* ////////////////////////////////////////////////////// */
 
 
